@@ -52,7 +52,7 @@ export class LineGroup {
                     const secondPart = this.getPathBetweenStops(b.line, common, b.stop);
                     const firstPartSlice = firstPart.path.slice(0, firstPart.to+1);
                     const secondPartSlice = secondPart.path.slice(secondPart.from);
-                    return { path: firstPartSlice.concat(secondPartSlice), from: firstPart.from, to: firstPartSlice.length + secondPart.to};
+                    return { path: firstPartSlice.concat(secondPartSlice), from: firstPart.from, to: firstPartSlice.length + secondPart.to - secondPart.from};
                 }
             }
         }
@@ -97,6 +97,17 @@ export class LineGroup {
     }
 
     private findCommonStop(line1: Line, line2: Line): Stop | null {
+        for (const stop1 of Object.values(line1.stops)) {
+            for (const stop2 of Object.values(line2.stops)) {
+                if (stop1.stationId == stop2.stationId) {
+                    return stop1;
+                }
+            }
+        }
+        return null;
+    }
+
+    private findCommonTerminus(line1: Line, line2: Line): Stop | null {
         for (const terminus1 of Object.values(line1.termini)) {
             for (const terminus2 of Object.values(line2.termini)) {
                 if (terminus1.stationId == terminus2.stationId) {

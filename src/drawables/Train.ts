@@ -27,6 +27,7 @@ export class Train extends AbstractTimedDrawable {
             const arrdep = new ArrivalDepartureTime(stops[i].trackInfo);
             const path = lineGroup.getPathBetween(stops[i-1].stationId, stops[i].stationId);
             if (path != null) {
+                console.log("moving from " + stops[i-1].stationId + " to " + stops[i].stationId);
                 if (i == 1) {
                     this.adapter.draw(delay, animate, path);
                 }

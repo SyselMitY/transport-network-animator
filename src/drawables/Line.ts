@@ -250,6 +250,10 @@ export class Line extends AbstractTimedDrawable {
         return this._path;
     }
 
+    get stops(): Stop[] {
+        return this.adapter.stops;
+    }
+
     getStop(stationId: string): Stop | null {
         for (const stop of Object.values(this.adapter.stops)) {
             if (stop.stationId == stationId) {
