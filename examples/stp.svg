@@ -55,14 +55,14 @@
 
 
             <rect class="platform" width="200" height="10" x="-40" y="-55" />
-            <rect class="platform" width="200" height="10" x="-40" y="-25" />
-            <rect class="platform" width="200" height="10" x="-40" y="+5" />
+            <rect class="platform" width="220" height="10" x="-40" y="-25" />
+            <rect class="platform" width="220" height="10" x="-40" y="+5" />
             <rect class="platform" width="200" height="10" x="-40" y="+35" />
 
 
-            <rect class="helper" data-station="Pd1" x="-120" y="-10" />
-            <rect class="helper" data-station="Pd2" x="-120" y="+0" />
-            <rect class="helper" data-station="Pd3" x="-120" y="+20" />
+            <rect class="helper" data-station="Pd1" x="-100" y="-10" />
+            <rect class="helper" data-station="Pd2" x="-100" y="+0" />
+            <rect class="helper" data-station="Pd3" x="-100" y="+20" />
 
             <rect class="helper" data-station="Wgm2" x="+200" y="+20" />
             <rect class="helper" data-station="Wgm3" x="+200" y="+0" />
@@ -72,20 +72,21 @@
             <rect class="helper" data-station="Wgm3a" x="+240" y="+0" />
             <rect class="helper" data-station="Wgm4a" x="+240" y="-10" />
             <rect class="helper" data-station="Wgm5a" x="+240" y="-30" />
-            <rect class="helper" data-station="Vn" x="+200" y="-60" />
 
 
 
             <rect data-station="Prinzersdorf" x="-460" y="-80" data-dir="ne" />
-            <rect data-station="Alpenbahnhof" x="-250" y="100" data-dir="w" />
-            <rect data-station="Tullnerfeld" x="430" y="-130" data-dir="sw" />
+            <rect data-station="Alpenbahnhof" x="-220" y="120" data-dir="s" />
+            <rect data-station="Tullnerfeld" x="430" y="-130" data-dir="se" />
             <rect data-station="Pottenbrunn" x="480" y="-80" data-dir="se" />
+            <rect data-station="Viehofen" x="+300" y="-120" data-dir="nw" />
 
 
             <text data-station="Alpenbahnhof">Alpenbahnhof</text>
             <text data-station="Prinzersdorf">Prinzersdorf</text>
             <text data-station="Tullnerfeld">Tullnerfeld</text>
             <text data-station="Pottenbrunn">Pottenbrunn</text>
+            <text data-station="Viehofen">Viehofen</text>
 
             <path data-line="east-west" data-stops="+0 Wgm4a +0 Wgm5 +0 Gleis5f +0 Gleis5e +0 Gleis5d +0 Gleis5c +0 Gleis5b +0 Gleis5a +0 Pd1" data-from="70 0 noanim-keepzoom"/>
             <path data-line="east-west" data-stops="+0 Wgm5a +0 Wgm4 +0 Gleis4f +0 Gleis4e +0 Gleis4d +0 Gleis4c +0 Gleis4b +0 Gleis4a +0 Pd1" data-from="70 0 noanim-keepzoom"/>
@@ -109,22 +110,60 @@
             <path data-line="west-east" data-stops="+1 Prinzersdorf +0 Pd2"/>
             <path data-line="west-east" data-stops="+2 Prinzersdorf +0 Pd3"/>
 
+            <!--Strecke Richtung Alpenbahnhof-->
+            <path data-line="west-east" data-stops="Gleis1a Alpenbahnhof"/>
+
+            <!--Strecke Richtung Viehofen-->
+            <path data-line="east-west" data-stops="Gleis7f +0 Viehofen"/>
+            <path data-line="east-west" data-stops="+0 Wgm5 +0 Viehofen"/>
 
             <!--Züge-->
             <!--RJX Gleis5b arrive -2 depart +0-->
-            <path data-train="east-west" class="train-ICE" data-length="7" data-stops="Tullnerfeld -6-2 Gleis5b +0+4 Prinzersdorf" data-from="70 0 keepzoom" data-to="70 4 keepzoom"/>
-            <!--EN Gleis3d arrive +0 depart +2-->
-            <path data-train="west-east" class="train-IC" data-length="7" data-stops="Prinzersdorf -4+0 Gleis3d +2+6 Tullnerfeld" data-from="70 0 keepzoom" data-to="70 6 keepzoom"/>
+            <path data-train="east-west" class="train-ICE" data-length="14" data-stops="Tullnerfeld -6-2 Gleis5b +0+4 Prinzersdorf" data-from="70 0 keepzoom" data-to="70 4 keepzoom"/>
+            <!--EN Gleis3e arrive +0 depart +2-->
+            <path data-train="west-east" class="train-IC" data-length="14" data-stops="Prinzersdorf -4+0 Gleis3e +2+6 Tullnerfeld" data-from="70 0 keepzoom" data-to="70 6 keepzoom"/>
             <!--CJX Gleis4a arrive -6 depart +3-->
             <path data-train="east-west" class="train-Regio" data-length="5" data-stops="Tullnerfeld -10-6 Gleis4b +3+7 Prinzersdorf" data-from="70 0 keepzoom" data-to="70 7 keepzoom"/>
             <!--REX Gleis4f begin +0 depart +5-->
-            <path data-train="west-east" class="train-Regio" data-length="5" data-stops="Gleis4f +5+9 Pottenbrunn" data-from="70 0 keepzoom" data-to="70 9 keepzoom"/>
+            <path data-train="west-east" class="train-Regio" data-length="6" data-stops="Gleis4f +5+9 Pottenbrunn" data-from="70 0 keepzoom" data-to="70 9 keepzoom"/>
+            <!--R Gleis6e begin +0 depart +5-->
+            <path data-train="east-west" class="train-Regio" data-length="3" data-stops="Gleis6e +5+9 Viehofen" data-from="70 0 keepzoom" data-to="70 9 keepzoom"/>
             <!--CJX Gleis2d arrive -4 depart +6-->
             <path data-train="west-east" class="train-Regio" data-length="5" data-stops="Prinzersdorf -8-4 Gleis2d +6+10 Tullnerfeld" data-from="70 0 keepzoom" data-to="70 10 keepzoom"/>
             <!--WB Gleis5b arrive +7 depart +8-->
-            <path data-train="east-west" class="train-IC" data-length="7" data-stops="Tullnerfeld +3+7 Gleis5d +8+12 Prinzersdorf" data-from="70 4 keepzoom" data-to="70 12 keepzoom"/>
-
-
+            <path data-train="east-west" class="train-IC" data-length="7" data-stops="Tullnerfeld +3+7 Gleis5b +8+12 Prinzersdorf" data-from="70 4 keepzoom" data-to="70 12 keepzoom"/>
+            <!--S Gleis7e begin 0+ depart +12-->
+            <path data-train="east-west" class="train-Regio" data-length="5" data-stops="Gleis7e +12+16 Viehofen" data-from="70 0 keepzoom" data-to="70 16 keepzoom"/>
+            <!--NJ Gleis3e arrive +15 depart +20-->
+            <path data-train="west-east" class="train-IC" data-length="14" data-stops="Prinzersdorf +11+15 Gleis3e +20+24 Tullnerfeld" data-from="70 12 keepzoom" data-to="70 24 keepzoom"/>
+            <!--CJX Gleis6b arrive +24 depart +26-->
+            <path data-train="east-west" class="train-Regio" data-length="5" data-stops="Tullnerfeld +20+24 Gleis6b +26+30 Prinzersdorf" data-from="70 21 keepzoom" data-to="70 30 keepzoom"/>
+            <!--RJ Gleis5b arrive +28 depart +30-->
+            <path data-train="east-west" class="train-ICE" data-length="7" data-stops="Tullnerfeld +24+28 Gleis5b +30+34 Prinzersdorf" data-from="70 25 keepzoom" data-to="70 34 keepzoom"/>
+            <!--RJ Gleis3e arrive +30 depart +32-->
+            <path data-train="west-east" class="train-ICE" data-length="7" data-stops="Prinzersdorf +26+30 Gleis3e +32+36 Tullnerfeld" data-from="70 27 keepzoom" data-to="70 36 keepzoom"/>
+            <!--CJX Gleis2f arrive +24 end +29-->
+            <path data-train="west-east" class="train-Regio" data-length="5" data-stops="Prinzersdorf +20+24 Gleis2f" data-from="70 21 keepzoom" data-to="70 29 keepzoom"/>
+            <!--REX Gleis4d arrive +25 end +29-->
+            <path data-train="east-west" class="train-Regio" data-length="6" data-stops="Pottenbrunn +21+25 Gleis4d" data-from="70 22 keepzoom" data-to="70 29 keepzoom"/>
+            <!--REX Gleis4f begin +30 depart +35-->
+            <path data-train="west-east" class="train-Regio" data-length="6" data-stops="Gleis4f +35+39 Pottenbrunn" data-from="70 30 keepzoom" data-to="70 39 keepzoom"/>
+            <!--CJX Gleis2d arrive +28 end +29-->
+            <path data-train="west-east" class="train-Regio" data-length="5" data-stops="Prinzersdorf +24+28 Gleis2d" data-from="70 25 keepzoom" data-to="70 29 keepzoom"/>
+            <!--R Gleis1d arrive +25 depart +47-->
+            <path data-train="west-east" class="train-Regio" data-length="3" data-stops="Alpenbahnhof +21+25 Gleis1d +47+51 Alpenbahnhof" data-from="70 22 keepzoom" data-to="70 51 keepzoom"/>
+            <!--CJX Gleis2f begin +30 depart +36-->
+            <path data-train="west-east" class="train-Regio" data-length="10" data-stops="Gleis2f +36+40 Tullnerfeld" data-from="70 30 keepzoom" data-to="70 40 keepzoom"/>
+            <!--WB Gleis5b arrive +37 depart +38-->
+            <path data-train="east-west" class="train-IC" data-length="7" data-stops="Tullnerfeld +33+37 Gleis5b +38+42 Prinzersdorf" data-from="70 34 keepzoom" data-to="70 42 keepzoom"/>
+            <!--R Gleis7e begin +18 depart +39-->
+            <path data-train="east-west" class="train-Regio" data-length="3" data-stops="Gleis7e +39+43 Viehofen" data-from="70 18 keepzoom" data-to="70 43 keepzoom"/>
+            <!--R Gleis4b begin +40 depart +52-->
+            <path data-train="east-west" class="train-Regio" data-length="5" data-stops="Gleis4a +52+56 Prinzersdorf" data-from="70 40 keepzoom" data-to="70 56 keepzoom"/>
+            <!--WB Gleis3e arrive +52 depart +53-->
+            <path data-train="west-east" class="train-IC" data-length="7" data-stops="Prinzersdorf +48+52 Gleis3e +53+57 Tullnerfeld" data-from="70 49 keepzoom" data-to="70 57 keepzoom"/>
+            <!--S Gleis7e arrive +47 depart +56-->
+            <path data-train="east-west" class="train-Regio" data-length="5" data-stops="Viehofen +43+47 Gleis7c +56+60 Viehofen" data-from="70 44 keepzoom" data-to="70 60 keepzoom"/>
         </g>
     </g>
 </g>
