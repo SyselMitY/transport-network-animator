@@ -6,4 +6,3 @@ working
 .nyc_output
 *.log
 script.md
-dist
