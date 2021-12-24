@@ -1,0 +1,250 @@
+<?xml-stylesheet type="text/css" href="trains.css" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false" data-zoom-max-scale="100" data-train-timetable-speed="60" viewBox="-300 -300 600 600">
+<g id="zoomable">
+    <g id="elements">
+        <g id="gleisplan" data-from="70 0 noanim-keepzoom" class="toplevel">
+
+            <rect class="helper" data-station="Gleis1a" x="-40" y="30" />
+            <rect class="helper" data-station="Gleis1b" x="+00" y="30" />
+            <rect class="helper" data-station="Gleis1c" x="+40" y="30" />
+            <rect class="helper" data-station="Gleis1d" x="+80" y="30" />
+            <rect class="helper" data-station="Gleis1e" x="+120" y="30" />
+            <rect class="helper" data-station="Gleis1f" x="+160" y="30" />
+
+            <rect class="helper" data-station="Gleis2a" x="-40" y="20" />
+            <rect class="helper" data-station="Gleis2b" x="+00" y="20" />
+            <rect class="helper" data-station="Gleis2c" x="+40" y="20" />
+            <rect class="helper" data-station="Gleis2d" x="+80" y="20" />
+            <rect class="helper" data-station="Gleis2e" x="+120" y="20" />
+            <rect class="helper" data-station="Gleis2f" x="+160" y="20" />
+
+            <rect class="helper" data-station="Gleis3a" x="-40" y="0" />
+            <rect class="helper" data-station="Gleis3b" x="+00" y="0" />
+            <rect class="helper" data-station="Gleis3c" x="+40" y="0" />
+            <rect class="helper" data-station="Gleis3d" x="+80" y="0" />
+            <rect class="helper" data-station="Gleis3e" x="+120" y="0" />
+            <rect class="helper" data-station="Gleis3f" x="+160" y="0" />
+
+            <rect class="helper" data-station="Gleis4a" x="-40" y="-10" />
+            <rect class="helper" data-station="Gleis4b" x="+00" y="-10" />
+            <rect class="helper" data-station="Gleis4c" x="+40" y="-10" />
+            <rect class="helper" data-station="Gleis4d" x="+80" y="-10" />
+            <rect class="helper" data-station="Gleis4e" x="+120" y="-10" />
+            <rect class="helper" data-station="Gleis4f" x="+160" y="-10" />
+
+            <rect class="helper" data-station="Gleis5a" x="-40" y="-30" />
+            <rect class="helper" data-station="Gleis5b" x="+00" y="-30" />
+            <rect class="helper" data-station="Gleis5c" x="+40" y="-30" />
+            <rect class="helper" data-station="Gleis5d" x="+80" y="-30" />
+            <rect class="helper" data-station="Gleis5e" x="+120" y="-30" />
+            <rect class="helper" data-station="Gleis5f" x="+160" y="-30" />
+
+            <rect class="helper" data-station="Gleis6a" x="-40" y="-40" />
+            <rect class="helper" data-station="Gleis6b" x="+00" y="-40" />
+            <rect class="helper" data-station="Gleis6c" x="+40" y="-40" />
+            <rect class="helper" data-station="Gleis6d" x="+80" y="-40" />
+            <rect class="helper" data-station="Gleis6e" x="+120" y="-40" />
+            <rect class="helper" data-station="Gleis6f" x="+160" y="-40" />
+
+            <rect class="helper" data-station="Gleis7a" x="-40" y="-60" />
+            <rect class="helper" data-station="Gleis7b" x="+00" y="-60" />
+            <rect class="helper" data-station="Gleis7c" x="+40" y="-60" />
+            <rect class="helper" data-station="Gleis7d" x="+80" y="-60" />
+            <rect class="helper" data-station="Gleis7e" x="+120" y="-60" />
+            <rect class="helper" data-station="Gleis7f" x="+160" y="-60" />
+
+
+            <rect class="platform" width="200" height="10" x="-40" y="-55" />
+            <rect class="platform" width="200" height="10" x="-40" y="-25" />
+            <rect class="platform" width="200" height="10" x="-40" y="+5" />
+            <rect class="platform" width="200" height="10" x="-40" y="+35" />
+
+
+            <rect class="helper" data-station="Pd1" x="-120" y="-10" />
+            <rect class="helper" data-station="Pd2" x="-120" y="+0" />
+            <rect class="helper" data-station="Pd3" x="-120" y="+20" />
+
+            <rect class="helper" data-station="Wgm2" x="+200" y="+20" />
+            <rect class="helper" data-station="Wgm3" x="+200" y="+0" />
+            <rect class="helper" data-station="Wgm4" x="+200" y="-10" />
+            <rect class="helper" data-station="Wgm5" x="+200" y="-30" />
+            <rect class="helper" data-station="Wgm2a" x="+240" y="+20" />
+            <rect class="helper" data-station="Wgm3a" x="+240" y="+0" />
+            <rect class="helper" data-station="Wgm4a" x="+240" y="-10" />
+            <rect class="helper" data-station="Wgm5a" x="+240" y="-30" />
+            <rect class="helper" data-station="Vn" x="+200" y="-60" />
+
+
+
+            <rect data-station="Prinzersdorf" x="-460" y="-80" data-dir="ne" />
+            <rect data-station="Alpenbahnhof" x="-250" y="100" data-dir="w" />
+            <rect data-station="Tullnerfeld" x="430" y="-130" data-dir="sw" />
+            <rect data-station="Pottenbrunn" x="480" y="-80" data-dir="se" />
+
+
+            <text data-station="Alpenbahnhof">Alpenbahnhof</text>
+            <text data-station="Prinzersdorf">Prinzersdorf</text>
+            <text data-station="Tullnerfeld">Tullnerfeld</text>
+            <text data-station="Pottenbrunn">Pottenbrunn</text>
+
+            <path data-line="east-west" data-stops="+0 Wgm4a +0 Wgm5 +0 Gleis5f +0 Gleis5e +0 Gleis5d +0 Gleis5c +0 Gleis5b +0 Gleis5a +0 Pd1" data-from="70 0 noanim-keepzoom"/>
+            <path data-line="east-west" data-stops="+0 Wgm5a +0 Wgm4 +0 Gleis4f +0 Gleis4e +0 Gleis4d +0 Gleis4c +0 Gleis4b +0 Gleis4a +0 Pd1" data-from="70 0 noanim-keepzoom"/>
+            <path data-line="east-west" data-stops="+0 Wgm5 +0 Gleis6f +0 Gleis6e +0 Gleis6d +0 Gleis6c +0 Gleis6b +0 Gleis6a +0 Pd1" data-from="70 0 noanim-keepzoom"/>
+            <path data-line="east-west" data-stops="+0 Wgm5 +0 Gleis7f +0 Gleis7e +0 Gleis7d +0 Gleis7c +0 Gleis7b +0 Gleis7a +0 Pd1" data-from="70 0 noanim-keepzoom"/>
+            
+            <path data-line="west-east" data-stops="+0 Pd2 +0 Gleis3a +0 Gleis3b +0 Gleis3c +0 Gleis3d +0 Gleis3e +0 Gleis3f +0 Wgm3 +0 Wgm2a" data-from="70 0 noanim-keepzoom"/>
+            <path data-line="west-east" data-stops="+0 Pd3 +0 Gleis2a +0 Gleis2b +0 Gleis2c +0 Gleis2d +0 Gleis2e +0 Gleis2f +0 Wgm2 +0 Wgm3a" data-from="70 0 noanim-keepzoom"/>
+            <path data-line="west-east" data-stops="+0 Pd3 +0 Gleis1a +0 Gleis1b +0 Gleis1c +0 Gleis1d +0 Gleis1e +0 Gleis1f +0 Wgm2" data-from="70 0 noanim-keepzoom"/>
+            
+            <path data-line="west-east" data-stops="+0 Gleis4f +0 Wgm3" data-from="70 0 noanim-keepzoom"/>
+
+            <!--Strecke richtung Wien-->
+            <path data-line="west-east" data-stops="+0 Wgm2 +0 Wgm2a Tullnerfeld"/>
+            <path data-line="west-east" data-stops="+0 Wgm3 +0 Wgm3a Pottenbrunn"/>
+            <path data-line="east-west" data-stops="Tullnerfeld +0 Wgm5a +0 Wgm5"/>
+            <path data-line="east-west" data-stops="Pottenbrunn +0 Wgm4a +0 Wgm4"/>
+
+            <!---Strecke Richtung Amstetten-->
+            <path data-line="east-west" data-stops="+0 Pd1 Prinzersdorf"/>
+            <path data-line="west-east" data-stops="+1 Prinzersdorf +0 Pd2"/>
+            <path data-line="west-east" data-stops="+2 Prinzersdorf +0 Pd3"/>
+
+
+            <!--Züge-->
+            <!--RJX Gleis5b arrive -2 depart +0-->
+            <path data-train="east-west" class="train-ICE" data-length="7" data-stops="Tullnerfeld -6-2 Gleis5b +0+4 Prinzersdorf" data-from="70 0 keepzoom" data-to="70 4 keepzoom"/>
+            <!--EN Gleis3d arrive +0 depart +2-->
+            <path data-train="west-east" class="train-IC" data-length="7" data-stops="Prinzersdorf -4+0 Gleis3d +2+6 Tullnerfeld" data-from="70 0 keepzoom" data-to="70 6 keepzoom"/>
+            <!--CJX Gleis4a arrive -6 depart +3-->
+            <path data-train="east-west" class="train-Regio" data-length="5" data-stops="Tullnerfeld -10-6 Gleis4b +3+7 Prinzersdorf" data-from="70 0 keepzoom" data-to="70 7 keepzoom"/>
+            <!--REX Gleis4f begin +0 depart +5-->
+            <path data-train="west-east" class="train-Regio" data-length="5" data-stops="Gleis4f +5+9 Pottenbrunn" data-from="70 0 keepzoom" data-to="70 9 keepzoom"/>
+            <!--CJX Gleis2d arrive -4 depart +6-->
+            <path data-train="west-east" class="train-Regio" data-length="5" data-stops="Prinzersdorf -8-4 Gleis2d +6+10 Tullnerfeld" data-from="70 0 keepzoom" data-to="70 10 keepzoom"/>
+            <!--WB Gleis5b arrive +7 depart +8-->
+            <path data-train="east-west" class="train-IC" data-length="7" data-stops="Tullnerfeld +3+7 Gleis5d +8+12 Prinzersdorf" data-from="70 4 keepzoom" data-to="70 12 keepzoom"/>
+
+
+        </g>
+    </g>
+</g>
+
+<g class="dummy helper" data-from="0 1 keepzoom"></g>
+
+<text id="custom-epoch-label" x="-300" y="-250" data-from="70 0 noanim-keepzoom" data-to="80 120 noanim-nozoom"></text>
+
+<text class="custom-epoch-label" x="-100" y="-250" data-from="70 0 noanim-keepzoom" data-to="70 40 noanim-nozoom">Szenario 1</text>
+<text class="custom-epoch-label" x="-100" y="-250" data-from="71 0 noanim-keepzoom" data-to="71 40 noanim-nozoom">Szenario 2</text>
+<text class="custom-epoch-label" x="-100" y="-250" data-from="72 0 noanim-keepzoom" data-to="72 40 noanim-nozoom">Szenario 3</text>
+
+
+<defs>
+    <g id="regiounit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="trafficred"
+            d="M 65,0 C 65,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 65,50 65,50 Z" />
+        <path
+            class="windowgrey"
+            d="M 65,15 C 65,11 72,6 75,6  80,6 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 80,44 75,44  72,44 65,39 65,35 Z" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="icunit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="lightgrey"
+            d="M 63,0 C 63,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 63,50 63,50 Z"
+            />
+        <path
+            class="windowgrey"
+            d="M 63,0 L 63,0 C 65,0 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 65,50 63,50 L 63,50" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="iceunit" class="unit">
+        <path
+            class="icebody"
+            d="M 150,0 C 250,0 426,35 426,100 426,165 250,200 150,200 Z" />
+        <path
+            class="lamp"
+            d="M 410,86 387,76 384,60 407,72 Z" />
+        <path
+            class="lamp"
+            d="M 410,114 387,124 384,140 407,128 Z" />
+        <path
+            class="windscreen"
+            d="M 290,37 C 301,37 360,55 360,100 360,145 301,163 290,163 291,163 296,120 296,100 296,80 291,37 290,37 Z" />
+        <path
+            class="cap"
+            d="M 290,163 C 291,163 296,120 296,100 296,80 291,37 290,37 290,36 256,31 246,31 206,31 214,65 214,100 214,135 206,169 246,169 256,169 290,164 290,163 Z" />
+    </g>
+    <marker id="ice-start" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#iceunit" />
+        </g>
+    </marker>
+    <marker id="ice-end" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#iceunit" />
+        </g>    
+    </marker>
+    <marker id="ic-start" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#icunit" />
+        </g>
+    </marker>
+    <marker id="ic-end" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#icunit"/>
+        </g>
+    </marker>
+    <marker id="regio-start" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#regiounit" />
+        </g>
+    </marker>
+    <marker id="regio-end" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#regiounit"/>
+        </g>
+    </marker>
+    <marker id="panto" viewBox="0 0 200,200" refX="130" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <path
+            d="M 200,100 L 200,90 L 90,70 M 200,100 L 200,110 L 90,130 M 113,30 L 110,35 L 110,165 L 113,170 M 83,30 80,35 L 80,165 L 83,170" class="panto" />
+        <path 
+            d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
+    </marker>
+</defs>
+<script xlink:href="../dist/network-animator.js" />
+
+<script>
+    let intvl;
+    document.addEventListener('epoch', function(e) {
+       if (e.detail == '70') {
+            if (intvl == undefined) {
+                let i = -1;
+                intvl = window.setInterval(function () {
+                    i++;
+                    document.getElementById('custom-epoch-label').textContent = ((6+Math.floor(i/60))+'').padStart(2, '0')+':'+((i%60)+'').padStart(2, '0');
+                }, 1000);
+            }
+        }
+    });
+
+    const event = new Event('startTransportNetworkAnimator');
+    document.dispatchEvent(event);
+</script>
+</svg>
