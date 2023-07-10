@@ -31,26 +31,27 @@ path {
     visibility: hidden;
 }
 
-svg {
-    background-color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
-    line-height: 16px;
-}
+
 
 
 
 
 
 .regional {
-    stroke:#7777ff;
+    stroke:#555555;
     background-color: #ee1d23;
     color: white;
 }
 
 
 .railjet {
-    stroke:#900000;
+    stroke:#cc0000;
+    background-color: #ee1d23;
+    color: white;
+}
+
+.sbahn {
+    stroke:#6688ff;
     background-color: #ee1d23;
     color: white;
 }
@@ -66,10 +67,12 @@ svg {
 
 
 
-
-
-
-
+svg {
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
 
 .e2h {
     stroke-dasharray: 12 4;

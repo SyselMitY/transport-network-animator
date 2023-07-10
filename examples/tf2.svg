@@ -1,0 +1,90 @@
+<?xml-stylesheet type="text/css" href="tf2.css" ?>
+<svg viewBox="0 0 1778 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="zoomable">
+    <g id="elements">        
+
+        <text data-station="Wh">Wien Hauptbahnhof</text>
+        <text data-station="Ww">Westbhf.</text>
+        <text data-station="Ws">Südbahnhof</text>
+        <text data-station="Pb">St. Pölten</text>
+        <text data-station="Am">Amstetten</text>
+        <text data-station="Lh">Linz</text>
+        <text data-station="Ps">Passau</text>
+        <text data-station="Br">Braunau</text>
+        <text data-station="Sb">Salzburg</text>
+        <text data-station="In">Innsbruck</text>
+        <text data-station="Mu">München</text>
+        <text data-station="Ag">Augsburg</text>
+		
+        <text data-station="Wa">Alter Westbahnhof</text>
+        <text data-station="Db">Döbling</text>
+        <text data-station="Fl">Floridsdorf</text>
+        <text data-station="Ds">Donaustadt</text>
+        <text data-station="Gf">Gänserndorf</text>
+        <text data-station="Mb">Mistelbach</text>
+        
+		<text data-station="Bd">Baden</text>
+        <text data-station="Wn">Wiener Neustadt</text>
+        <text data-station="Es">Eisenstadt</text>
+        <text data-station="Mz">Mürzzuschlag</text>
+		
+		
+		
+		
+
+		<path data-line="S2" class="sbahn" data-stops="Gf Ds Fl Db Wa Pb Am Lh" data-from="2023 1"/>		
+		<path data-line="S1" class="sbahn" data-stops="Mb Fl Db Wh Ws Bd Wn Es" data-from="2023 1"/>
+		
+		<path data-line="REX1" class="regional" data-stops="Ww Wh Ws Wn Mz" data-from="2023 1"/>
+		
+		<path data-line="R1" class="regional" data-stops="Ws Wh Ww Pb Am Lh" data-from="2023 1"/>
+		<path data-line="R2" class="regional" data-stops="Lh Ps Br Mud Mu Ag" data-from="2023 1"/>
+		
+		<path data-line="ICE1" class="railjet" data-stops="Mu Mud Sb In" data-from="2023 1"/>
+		
+
+		<path data-line="R3" class="regional" data-stops="Sb Br Ps" data-from="2023 1"/>
+		
+
+		<path data-line="RJ1" class="railjet" data-stops="Ws Wh Lh Sb" data-from="2023 1"/>
+		
+
+
+
+    </g>
+    <g id="stations">
+        
+		<rect data-station="Bd" x="1100" y="350" data-comment="Baden" data-dir="s" data-label-dir="e" />
+		<rect data-station="Wn" x="1100" y="400" data-comment="Wiener Neustadt" data-dir="s" data-label-dir="e" />
+		<rect data-station="Es" x="1150" y="460" data-comment="Eisenstadt" data-dir="se" data-label-dir="e" />
+		<rect data-station="Mz" x="1050" y="470" data-comment="Mürzzuschlag" data-dir="sw" data-label-dir="nw" />
+		
+		
+        <rect data-station="Ws" x="1075" y="300" data-comment="Wien Süd" data-dir="se" data-label-dir="e" />
+		<rect data-station="Wh" x="1050" y="275" data-comment="Wien Hauptbahnhof" data-dir="se" data-label-dir="ne" />
+        <rect data-station="Ww" x="990" y="250" data-comment="Wien West" data-dir="e" data-label-dir="s" />
+        <rect data-station="Pb" x="930" y="250" data-comment="St Pölten" data-dir="e" data-label-dir="n" />
+        <rect data-station="Am" x="860" y="250" data-comment="Amstetten" data-dir="e" data-label-dir="n" />
+        <rect data-station="Lh" x="775" y="265" data-comment="Linz" data-dir="e" data-label-dir="s" />
+        <rect data-station="Ps" x="690" y="250" data-comment="Passau" data-dir="e" data-label-dir="n" />
+        <rect data-station="Br" x="620" y="250" data-comment="Braunau" data-dir="e" data-label-dir="n" />
+        <rect data-station="Sb" x="535" y="300" data-comment="Salzburg" data-dir="ne" data-label-dir="se" />
+        <rect data-station="Mud" x="550" y="225" data-comment="Münchendummy" data-dir="se" data-label-dir="s" class="helper"/>
+        <rect data-station="Mu" x="500" y="175" data-comment="München" data-dir="se" data-label-dir="sw"/>
+        <rect data-station="Ag" x="475" y="125" data-comment="Augsburg" data-dir="n" data-label-dir="w"/>
+        <rect data-station="In" x="500" y="400" data-comment="Innsbruck" data-dir="e" data-label-dir="s" />
+		
+		
+		<rect data-station="Wa" x="1000" y="220" data-comment="Alter Westbahnhof" data-dir="ne" data-label-dir="nw" />
+		<rect data-station="Db" x="1025" y="175" data-comment="Döbling" data-dir="n" data-label-dir="w" />
+		<rect data-station="Fl" x="1025" y="150" data-comment="Floridsdorf" data-dir="n" data-label-dir="w" />
+		<rect data-station="Ds" x="1050" y="105" data-comment="Donaustadt" data-dir="ne" data-label-dir="se" />
+		<rect data-station="Gf" x="1125" y="75" data-comment="Gänserndorf" data-dir="e" data-label-dir="n" />
+		<rect data-station="Mb" x="1000" y="75" data-comment="Mistelbach" data-dir="nw" data-label-dir="w" />
+
+    </g>
+    </g>
+    <rect id="epoch-label-bg" x="1519" y="50" width="180" height="90" />
+    <text id="epoch-label" x="1609" y="100"></text>
+    <script xlink:href="../dist/network-animator.js" />
+</svg>
