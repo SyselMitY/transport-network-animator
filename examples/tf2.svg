@@ -12,6 +12,7 @@
         <text data-station="Ps">Passau</text>
         <text data-station="Br">Braunau</text>
         <text data-station="Sb">Salzburg</text>
+        <text data-station="Hl">Hallein</text>
         <text data-station="In">Innsbruck</text>
         <text data-station="Mu">München</text>
         <text data-station="Ag">Augsburg</text>
@@ -29,6 +30,10 @@
         <text data-station="Mz">Mürzzuschlag</text>
 		
 		
+        <text data-station="Vb">Völklabruck</text>
+        <text data-station="Bi">Bad Ischl</text>
+		
+		
 		
 		
 
@@ -43,10 +48,13 @@
 		<path data-line="ICE1" class="railjet" data-stops="Mu Mud Sb In" data-from="2023 1"/>
 		
 
-		<path data-line="R3" class="regional" data-stops="Sb Br Ps" data-from="2023 1"/>
+		<path data-line="R3" class="regional" data-stops="Hl Sb Br Ps" data-from="2023 1"/>
 		
 
 		<path data-line="RJ1" class="railjet" data-stops="Ws Wh Lh Sb" data-from="2023 1"/>
+		
+		
+		<path data-line="R4" class="regional" data-stops="Lh Vb Bi" data-from="2023 1"/>
 		
 
 
@@ -69,6 +77,7 @@
         <rect data-station="Ps" x="690" y="250" data-comment="Passau" data-dir="e" data-label-dir="n" />
         <rect data-station="Br" x="620" y="250" data-comment="Braunau" data-dir="e" data-label-dir="n" />
         <rect data-station="Sb" x="535" y="300" data-comment="Salzburg" data-dir="ne" data-label-dir="se" />
+        <rect data-station="Hl" x="525" y="360" data-comment="Hallein" data-dir="s" data-label-dir="e" />
         <rect data-station="Mud" x="550" y="225" data-comment="Münchendummy" data-dir="se" data-label-dir="s" class="helper"/>
         <rect data-station="Mu" x="500" y="175" data-comment="München" data-dir="se" data-label-dir="sw"/>
         <rect data-station="Ag" x="475" y="125" data-comment="Augsburg" data-dir="n" data-label-dir="w"/>
@@ -81,6 +90,11 @@
 		<rect data-station="Ds" x="1050" y="105" data-comment="Donaustadt" data-dir="ne" data-label-dir="se" />
 		<rect data-station="Gf" x="1125" y="75" data-comment="Gänserndorf" data-dir="e" data-label-dir="n" />
 		<rect data-station="Mb" x="1000" y="75" data-comment="Mistelbach" data-dir="nw" data-label-dir="w" />
+		
+		
+		
+        <rect data-station="Vb" x="710" y="330" data-comment="Völklabruck" data-dir="sw" data-label-dir="e" />
+        <rect data-station="Bi" x="690" y="370" data-comment="Bad Ischl" data-dir="s" data-label-dir="e" />
 
     </g>
     </g>
