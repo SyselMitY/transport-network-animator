@@ -56,7 +56,15 @@ path {
     color: white;
 }
 
+.helper {
+	display:none;
+}
 
+.ice {
+    stroke:#39b97a;
+    background-color: #39b97a;
+    color: white;
+}
 
 
 

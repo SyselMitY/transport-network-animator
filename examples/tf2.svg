@@ -5,6 +5,7 @@
 
         <text data-station="Wh">Wien Hauptbahnhof</text>
         <text data-station="Ww">Westbhf.</text>
+        <text data-station="Wwh">Westbhf.</text>
         <text data-station="Ws">Südbahnhof</text>
         <text data-station="Pb">St. Pölten</text>
         <text data-station="Am">Amstetten</text>
@@ -12,8 +13,16 @@
         <text data-station="Ps">Passau</text>
         <text data-station="Br">Braunau</text>
         <text data-station="Sb">Salzburg</text>
+        <text data-station="Ss">Salzburg Süd</text>
         <text data-station="Hl">Hallein</text>
+        <text data-station="Sj">Sankt Johann im Pongau</text>
+        <text data-station="Zs">Zell am See</text>
+        <text data-station="Wg">Wörgl</text>
+		
+		
         <text data-station="In">Innsbruck</text>
+		
+		
         <text data-station="Mu">München</text>
         <text data-station="Ag">Augsburg</text>
 		
@@ -24,34 +33,55 @@
         <text data-station="Gf">Gänserndorf</text>
         <text data-station="Mb">Mistelbach</text>
         
+		<text data-station="Ka">Kaiserebersdorf</text>
+		<text data-station="Se">Schwechat</text>
+		<text data-station="Bh">Bratislava</text>
+		
 		<text data-station="Bd">Baden</text>
         <text data-station="Wn">Wiener Neustadt</text>
         <text data-station="Es">Eisenstadt</text>
         <text data-station="Mz">Mürzzuschlag</text>
+        <text data-station="Gr">Graz</text>
+        <text data-station="Kf">Klagenfurt</text>
+        <text data-station="Vl">Villach</text>
 		
 		
         <text data-station="Vb">Völklabruck</text>
         <text data-station="Bi">Bad Ischl</text>
 		
+        <text data-station="Jd">Judenburg</text>
+        <text data-station="Lb">Leoben</text>		
+		<text data-station="Fb">Feldbach</text>
+        <text data-station="Sz">Szombathely</text>
+        <text data-station="So">Sopron</text>
+		
 		
 		
 		
 
-		<path data-line="S2" class="sbahn" data-stops="Gf Ds Fl Db Wa Pb Am Lh" data-from="2023 1"/>		
+		<path data-line="S3" class="sbahn" data-stops="Fl Db Wh Ws Ka Se Bh" data-from="2023 1"/>	
 		<path data-line="S1" class="sbahn" data-stops="Mb Fl Db Wh Ws Bd Wn Es" data-from="2023 1"/>
+		<path data-line="S2" class="sbahn" data-stops="Gf Ds Fl Db Wa Pb Am Lh" data-from="2023 1"/>	
 		
-		<path data-line="REX1" class="regional" data-stops="Ww Wh Ws Wn Mz" data-from="2023 1"/>
+		<path data-line="R5" class="regional" data-stops="Jd Lb Gr Fb Fbh Sz" data-from="2023 1"/>
+		<path data-line="R6" class="regional" data-stops="Mz Es So Sz" data-from="2023 1"/>
+		
+		<path data-line="REX1" class="regional" data-stops="Ww Wh Ws Wn Mz Gr" data-from="2023 1"/>
 		
 		<path data-line="R1" class="regional" data-stops="Ws Wh Ww Pb Am Lh" data-from="2023 1"/>
 		<path data-line="R2" class="regional" data-stops="Lh Ps Br Mud Mu Ag" data-from="2023 1"/>
 		
-		<path data-line="ICE1" class="railjet" data-stops="Mu Mud Sb In" data-from="2023 1"/>
+		<path data-line="ICE1" class="ice" data-stops="Mu Mud Sb Inh In" data-from="2023 1"/>
 		
 
-		<path data-line="R3" class="regional" data-stops="Hl Sb Br Ps" data-from="2023 1"/>
+		<path data-line="R3" class="regional" data-stops="Ss Sb Br Ps" data-from="2023 1"/>
+		<path data-line="R5" class="regional" data-stops="Wg Zs Sj Hl Ss Sb" data-from="2023 1"/>
 		
 
 		<path data-line="RJ1" class="railjet" data-stops="Ws Wh Lh Sb" data-from="2023 1"/>
+		
+		<path data-line="RJ2" class="railjet" data-stops="Wwh Wh Mzh Mzhh Gr" data-from="2023 1"/>
+		<path data-line="ICE2" class="ice" data-stops="Gr Kf Vl" data-from="2023 1"/>
 		
 		
 		<path data-line="R4" class="regional" data-stops="Lh Vb Bi" data-from="2023 1"/>
@@ -62,31 +92,49 @@
     </g>
     <g id="stations">
         
-		<rect data-station="Bd" x="1100" y="350" data-comment="Baden" data-dir="s" data-label-dir="e" />
+		<rect data-station="Bd" x="1100" y="370" data-comment="Baden" data-dir="s" data-label-dir="e" />
 		<rect data-station="Wn" x="1100" y="400" data-comment="Wiener Neustadt" data-dir="s" data-label-dir="e" />
-		<rect data-station="Es" x="1150" y="460" data-comment="Eisenstadt" data-dir="se" data-label-dir="e" />
-		<rect data-station="Mz" x="1050" y="470" data-comment="Mürzzuschlag" data-dir="sw" data-label-dir="nw" />
+		<rect data-station="Es" x="1160" y="470" data-comment="Eisenstadt" data-dir="se" data-label-dir="e" />
+		<rect data-station="Mz" x="1050" y="470" data-comment="Mürzzuschlag" data-dir="sw" data-label-dir="se" />
+		<rect data-station="Mzh" x="1050" y="350" class="helper" data-comment="Mürzzuschlag helper" data-dir="s" data-label-dir="nw" />
+		<rect data-station="Mzhh" x="1040" y="455" class="helper" data-comment="Mürzzuschlag helper" data-dir="sw" data-label-dir="nw" />
+		<rect data-station="Gr" x="1020" y="540" data-comment="Graz" data-dir="n" data-label-dir="e" />
+		<rect data-station="Kf" x="970" y="620" data-comment="Klagenfurt" data-dir="sw" data-label-dir="nw" />
+		<rect data-station="Vl" x="850" y="640" data-comment="Villach" data-dir="w" data-label-dir="n" />
 		
+		<rect data-station="Ka" x="1160" y="325" data-comment="Kaiserebersdorf" data-dir="e" data-label-dir="s" />
+		<rect data-station="Se" x="1250" y="325" data-comment="Schwechat" data-dir="e" data-label-dir="s" />
+		<rect data-station="Bh" x="1300" y="300" data-comment="Bratislava" data-dir="ne" data-label-dir="e" />
 		
         <rect data-station="Ws" x="1075" y="300" data-comment="Wien Süd" data-dir="se" data-label-dir="e" />
 		<rect data-station="Wh" x="1050" y="275" data-comment="Wien Hauptbahnhof" data-dir="se" data-label-dir="ne" />
         <rect data-station="Ww" x="990" y="250" data-comment="Wien West" data-dir="e" data-label-dir="s" />
+        <rect data-station="Wwh" x="990" y="290" data-comment="Wien West helper" data-dir="e" data-label-dir="s" />
         <rect data-station="Pb" x="930" y="250" data-comment="St Pölten" data-dir="e" data-label-dir="n" />
         <rect data-station="Am" x="860" y="250" data-comment="Amstetten" data-dir="e" data-label-dir="n" />
         <rect data-station="Lh" x="775" y="265" data-comment="Linz" data-dir="e" data-label-dir="s" />
         <rect data-station="Ps" x="690" y="250" data-comment="Passau" data-dir="e" data-label-dir="n" />
         <rect data-station="Br" x="620" y="250" data-comment="Braunau" data-dir="e" data-label-dir="n" />
-        <rect data-station="Sb" x="535" y="300" data-comment="Salzburg" data-dir="ne" data-label-dir="se" />
-        <rect data-station="Hl" x="525" y="360" data-comment="Hallein" data-dir="s" data-label-dir="e" />
+        <rect data-station="Sb" x="535" y="300" data-comment="Salzburg" data-dir="nw" data-label-dir="e" />
+		
+        <rect data-station="Ss" x="525" y="350" data-comment="Salzburg Süd" data-dir="n" data-label-dir="e" />
+        <rect data-station="Hl" x="520" y="390" data-comment="Hallein" data-dir="ne" data-label-dir="e" />
+        <rect data-station="Sj" x="495" y="415" data-comment="St Johann" data-dir="ne" data-label-dir="e" />
+        <rect data-station="Zs" x="470" y="440" data-comment="Zell am See" data-dir="ne" data-label-dir="e" />
+        <rect data-station="Wg" x="350" y="465" data-comment="Wörgl" data-dir="e" data-label-dir="w" />
+		
+		
+		
         <rect data-station="Mud" x="550" y="225" data-comment="Münchendummy" data-dir="se" data-label-dir="s" class="helper"/>
         <rect data-station="Mu" x="500" y="175" data-comment="München" data-dir="se" data-label-dir="sw"/>
         <rect data-station="Ag" x="475" y="125" data-comment="Augsburg" data-dir="n" data-label-dir="w"/>
-        <rect data-station="In" x="500" y="400" data-comment="Innsbruck" data-dir="e" data-label-dir="s" />
+        <rect data-station="In" x="300" y="550" data-comment="Innsbruck" data-dir="ne" data-label-dir="s" />
+        <rect data-station="Inh" class="helper" x="420" y="480" data-comment="Innsbruck helper" data-dir="s" data-label-dir="s" />
 		
 		
 		<rect data-station="Wa" x="1000" y="220" data-comment="Alter Westbahnhof" data-dir="ne" data-label-dir="nw" />
-		<rect data-station="Db" x="1025" y="175" data-comment="Döbling" data-dir="n" data-label-dir="w" />
-		<rect data-station="Fl" x="1025" y="150" data-comment="Floridsdorf" data-dir="n" data-label-dir="w" />
+		<rect data-station="Db" x="1025" y="175" data-comment="Döbling" data-dir="s" data-label-dir="w" />
+		<rect data-station="Fl" x="1025" y="150" data-comment="Floridsdorf" data-dir="s" data-label-dir="w" />
 		<rect data-station="Ds" x="1050" y="105" data-comment="Donaustadt" data-dir="ne" data-label-dir="se" />
 		<rect data-station="Gf" x="1125" y="75" data-comment="Gänserndorf" data-dir="e" data-label-dir="n" />
 		<rect data-station="Mb" x="1000" y="75" data-comment="Mistelbach" data-dir="nw" data-label-dir="w" />
@@ -95,6 +143,15 @@
 		
         <rect data-station="Vb" x="710" y="330" data-comment="Völklabruck" data-dir="sw" data-label-dir="e" />
         <rect data-station="Bi" x="690" y="370" data-comment="Bad Ischl" data-dir="s" data-label-dir="e" />
+        
+		<rect data-station="Jd" x="850" y="450" data-comment="Judenburg" data-dir="w" data-label-dir="n" />
+        <rect data-station="Lb" x="985" y="480" data-comment="Leoben" data-dir="nw" data-label-dir="sw" />
+        <rect data-station="Fb" x="1050" y="610" data-comment="Feldbach" data-dir="se" data-label-dir="w" />
+        <rect data-station="Fbh" class="helper" x="1100" y="610" data-comment="Feldbach helper" data-dir="e" data-label-dir="w" />
+        <rect data-station="Sz" x="1160" y="610" data-comment="Szombathely" data-dir="ne" data-label-dir="e" />
+        <rect data-station="So" x="1190" y="540" data-comment="Sopron" data-dir="n" data-label-dir="e" />
+		
+		
 
     </g>
     </g>
