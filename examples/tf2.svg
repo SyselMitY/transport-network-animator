@@ -22,6 +22,8 @@
 		
         <text data-station="In">Innsbruck</text>
 		
+        <text data-station="Ku">Kufstein</text>
+        <text data-station="Rh">Rosenheim</text>
 		
         <text data-station="Mu">München</text>
         <text data-station="Ag">Augsburg</text>
@@ -69,8 +71,11 @@
 		<path data-line="REX1" class="regional" data-stops="Ww Wh Ws Wn Mz Gr" data-from="2023 1"/>
 		
 		<path data-line="R1" class="regional" data-stops="Ws Wh Ww Pb Am Lh" data-from="2023 1"/>
-		<path data-line="R2" class="regional" data-stops="Lh Ps Br Mud Mu Ag" data-from="2023 1"/>
+		<path data-line="R2" class="regional" data-stops="Lh Ps Br Mud Mu" data-from="2023 1"/>
 		
+		<path data-line="R7" class="regional" data-stops="In Wg Ku Rh" data-from="2023 1"/>
+		<path data-line="R9" class="regional" data-stops="Ku Rh Sb" data-from="2023 1"/>
+		<path data-line="R8" class="regional" data-stops="Rh Mu Ag" data-from="2023 1"/>
 		<path data-line="ICE1" class="ice" data-stops="Mu Mud Sb Inh In" data-from="2023 1"/>
 		
 
@@ -123,7 +128,8 @@
         <rect data-station="Zs" x="470" y="440" data-comment="Zell am See" data-dir="ne" data-label-dir="e" />
         <rect data-station="Wg" x="350" y="465" data-comment="Wörgl" data-dir="e" data-label-dir="w" />
 		
-		
+        <rect data-station="Ku" x="370" y="400" data-comment="Kufstein" data-dir="ne" data-label-dir="w" />
+        <rect data-station="Rh" x="430" y="340" data-comment="Rosenheim" data-dir="ne" data-label-dir="w" />
 		
         <rect data-station="Mud" x="550" y="225" data-comment="Münchendummy" data-dir="se" data-label-dir="s" class="helper"/>
         <rect data-station="Mu" x="500" y="175" data-comment="München" data-dir="se" data-label-dir="sw"/>
